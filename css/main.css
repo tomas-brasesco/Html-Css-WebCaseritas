@@ -39,6 +39,9 @@ footer {
   background-image: linear-gradient(to top, burlywood, #ECF0F1);
   width: 100%; }
 
+.navbar-dark .navbar-nav .nav-link {
+  color: black !important; }
+
 h1, h2 {
   color: #333333; }
 
