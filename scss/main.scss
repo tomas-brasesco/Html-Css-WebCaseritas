@@ -2,7 +2,7 @@
 $blurry: #deb887;
 $text: black;
 $titleColor:#333333;
-$textBlack:#0000;
+$textBlack:bolder;
 $titleSize:56px;
 $subTitleSize:36px;
 $textSize:20px;
@@ -39,10 +39,6 @@ footer{
     height: 7vh;
     background-image: linear-gradient(to top, burlywood, #ECF0F1); width: 100%;
 }
-.navbar-dark .navbar-nav .nav-link{
-    color: $text!important;
-}
-
 h1, h2{ color:$titleColor;
 }
 li {
@@ -83,44 +79,44 @@ form{
 .imgCarousel{
     width: 100%;
     height: 35vh;
-    max-width: auto;
+    
 }
 @media screen and (max-width: 5000px) {
     .imgCarousel {
       width: 100%;
       height: 80vh;
-      max-width: auto; } }
+       } }
   
   @media screen and (max-width: 1400px) {
     .imgCarousel {
       width: 100%;
       height: 60vh;
-      max-width: auto; } }
+       } }
   
   @media screen and (max-width: 1000px) {
     .imgCarousel {
       width: 100%;
       height: 55vh;
-      max-width: auto; } }
+      } }
   @media screen and (max-width: 780px) {
     .imgCarousel {
       width: 100%;
       height: 50vh;
-      max-width: auto; 
+       
     } 
   }
   @media screen and (max-width: 680px) {
     .imgCarousel {
       width: 100%;
       height: 45vh;
-      max-width: auto;
+      
     } 
   } 
   @media screen and (max-width: 580px) {
     .imgCarousel {
       width: 100%;
       height: 40vh;
-      max-width: auto; } }
+       } }
 .tabla{
       margin: auto;
       align-items: center;
